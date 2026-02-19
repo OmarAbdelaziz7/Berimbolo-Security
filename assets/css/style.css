@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
 scroll-behavior: smooth;
 }
@@ -112,3 +113,119 @@ box-shadow: none;
 footer {
 font-size: 14px;
 }
+=======
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+}
+
+/* HERO */
+header {
+position: relative;
+min-height: 90vh;
+background: url('../images/home.jpg') center/cover no-repeat;
+display: flex;
+align-items: center;
+}
+
+.hero-overlay {
+position: absolute;
+inset: 0;
+background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+position: relative;
+z-index: 2;
+}
+
+/* SERVICE CARDS */
+.service-card {
+background: white;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* FEATURE BOX */
+.feature-box {
+transition: 0.3s;
+}
+
+.feature-box:hover {
+transform: translateY(-8px);
+}
+
+/* PRICING */
+.pricing-card {
+transition: 0.3s;
+border: none;
+box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.pricing-card:hover {
+transform: scale(1.05);
+}
+
+.pricing-card.featured {
+transform: scale(1.05);
+}
+
+/* TEAM */
+.team-card {
+border: none;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.team-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.team-photo {
+height: 280px;
+object-fit: cover;
+}
+
+.social-icons i {
+margin: 0 8px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.social-icons i:hover {
+color: #dc3545;
+}
+
+/* TESTIMONIAL */
+.testimonial-card {
+background: white;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.testimonial-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+
+/* FORM */
+.form-control:focus {
+border-color: #dc3545;
+box-shadow: none;
+}
+
+/* FOOTER */
+footer {
+font-size: 14px;
+}
+>>>>>>> c9f0edffac2b5ab7e9db152ad9b56dd56d4369ed
